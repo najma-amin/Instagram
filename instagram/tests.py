@@ -16,7 +16,7 @@ class ProfileTestClass(TestCase):
 
 class PostTestClass(TestCase):
     def setUp(self):
-        self.post = Post(image = 'home.png', caption = "tumaa' post")
+        self.post = Post(image = 'home.png', caption = "amjaan' post")
         self.post.save()
 
     def tearDown(self):

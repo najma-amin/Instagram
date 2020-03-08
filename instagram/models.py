@@ -80,5 +80,3 @@ class Profile(models.Model):
     def search_by_name(cls,search_term):
             profile = cls.objects.filter(name__icontains=search_term)
             return profile
-
-
