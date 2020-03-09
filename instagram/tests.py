@@ -5,7 +5,7 @@ from .models import Profile, Post
 # Create your tests here.
 class ProfileTestClass(TestCase):
     def setUp(self):
-        self.profile = Profile(user='amjaan', name = 'amjaan', profile_pic = 'home.png')
+        self.profile = Profile(user='najma', name = 'najma', profile_pic = 'home.png')
         self.profile.save()
 
     def tearDown(self):
@@ -16,7 +16,7 @@ class ProfileTestClass(TestCase):
 
 class PostTestClass(TestCase):
     def setUp(self):
-        self.post = Post(image = 'home.png', caption = "amjaan' post")
+        self.post = Post(image = 'home.png', caption = "najma' post")
         self.post.save()
 
     def tearDown(self):
