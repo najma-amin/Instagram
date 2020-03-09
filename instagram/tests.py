@@ -5,7 +5,7 @@ from .models import Profile, Post
 # Create your tests here.
 class ProfileTestClass(TestCase):
     def setUp(self):
-        self.profile = Profile(user='Amjaan', name = 'Amjaan', profile_pic = 'home.png')
+        self.profile = Profile(user='amjaan', name = 'amjaan', profile_pic = 'home.png')
         self.profile.save()
 
     def tearDown(self):
@@ -24,3 +24,4 @@ class PostTestClass(TestCase):
 
     def test_instance(self):
         self.assertTrue(isinstance(self.post, Post))
+

@@ -15,3 +15,5 @@ urlpatterns = [
     url(r'^unlike/(?P<post_id>\d+)$', views.unlike, name='unlike'),
     url(r'^user/(?P<user_id>\d+)$', views.user, name='aboutuser'),
 ]
+
+
