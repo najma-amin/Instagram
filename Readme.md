@@ -4,5 +4,5 @@
 
 ### License
 
-- MIT Licence ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+- MIT Licence ![License: MIT]
 - Copyright (c) 2019
