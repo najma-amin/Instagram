@@ -50,29 +50,20 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = []
+# SECURITY WARNING: don't run with debug turned on in production
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'instagram',
+    'bootstrap3',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'instagram',
-    'bootstrap3',
-    
-    
-  
-    
-    
-
 ]
 
 MIDDLEWARE = [
