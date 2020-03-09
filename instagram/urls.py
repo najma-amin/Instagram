@@ -15,5 +15,6 @@ urlpatterns = [
     url(r'^unlike/(?P<post_id>\d+)$', views.unlike, name='unlike'),
     url(r'^user/(?P<user_id>\d+)$', views.user, name='aboutuser'),
 ]
-
+if settings.DEBUG:
+    urlpatterns+= static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 
