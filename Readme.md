@@ -47,15 +47,12 @@ Ran 2 tests in 0.005s
 
 FAILED (errors=2)
 Destroying test database for alias 'default'...
+
 ## Support and contact details
 
-For any questions, troubleshooting or contributions, find me on:
-
-    Email: najmaamin10@gmail.com
-    phone: 0720709074
-
+In case of any problems with the Webpage feel free to reach out via najmaamin10@gmail.com
 
 ### License
 
-- MIT Licence ![License: MIT](https://img.me.io/badge/License-MIT-green.svg)
+- MIT Licence ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 - Copyright (c) 2019
