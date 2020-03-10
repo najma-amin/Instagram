@@ -5,7 +5,7 @@
 	<div class="card mb-3 profile-card mt-5" style="max-width: 540px;">
 		<div class="row no-gutters">
 			<div class="col-md-4 rounded circle">
-				<img src="{{ user.profile.image.image.url }}" class="card-img rounded-circle border responsive" alt="..." height="175">
+				<img src="{{ user.profile.image.url }}" class="card-img rounded-circle border responsive" alt="..." height="175">
 			</div>
 			<div class="col-md-8">
 				<div class="card-body">
@@ -48,7 +48,7 @@
 			<div class="tab-pane animated fadeIn slow show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 				{% for post in posts %}
 				{% if post.user == user.profile.user %}
-				<img src="{{ post.image.image.url }}" class='responsive m-3' height="300" width="300">
+				<img src="{{ post.image.url }}" class='responsive m-3' height="300" width="300">
 				{% endif %}
 				{% endfor %}
 			</div>

@@ -9,6 +9,7 @@ from django.core.exceptions import ObjectDoesNotExist
 
 
 # Create your views here.
+@login_required(login_url='/accounts/login/')
 def index(request):
     c = RequestContext(request, {
         'likes': 'likes',
