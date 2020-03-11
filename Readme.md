@@ -1,5 +1,19 @@
 ## INSTAGRAM
 
+## Description
+ Najinsta is an application that allows user to post their memories pictures like comment and check followers and following. by Najma
+## DB.Design
+
+![dbdesign](Instagram.png)
+
+
+## CODEBEAT
+
+[![codebeat badge](https://codebeat.co/badges/c8dbb67a-f3ce-4a47-8285-0e9d036ccaf9)](https://codebeat.co/projects/github-com-najma-amin-instagram-master)
+
+
+## Description
+ Najinsta is an application that allows user to post their memories pictures like comment, check followers and following.
 
 
 ## Setup/Installation Requirements
@@ -43,6 +57,8 @@ Cloning and running
     Python 3.6
     Django 1.11
 ## Known Bugs
+
+Not all features have been implemented eg likes,comments,followers and following
 Ran 2 tests in 0.005s
 
 FAILED (errors=2)
